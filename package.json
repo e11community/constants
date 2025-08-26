@@ -1,0 +1,25 @@
+{
+  "name": "@e11community/constants",
+  "version": "1.0.0",
+  "description": "Constants shared between operations tooling",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "rebuild": "([ -d ./dist ] && rm -rf ./dist); ([ -d ./node_modules ] && rm -rf ./node_modules); NPM_CONFIG_UPDATE_NOTIFIER=false npm install --no-fund && tsc -p ."
+  },
+  "keywords": [
+    "rollbar",
+    "typescript"
+  ],
+  "author": "Engineering 11",
+  "repository": {
+    "url": "https://github.com/e11community/constants",
+    "type": "git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
