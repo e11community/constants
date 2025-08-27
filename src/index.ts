@@ -1,4 +1,1 @@
-export interface RollbarDynamicConfig {
-  accessToken: string
-  code_version: string
-}
+export * from './rollbar'
